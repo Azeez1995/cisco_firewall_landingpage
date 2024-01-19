@@ -1,0 +1,802 @@
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Black;
+    src: url(../font/Poppins-Black.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../font/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-ExtraBold;
+    src: url(../font/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-ExtraLight;
+    src: url(../font/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url(../font/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../font/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../font/Poppins-SemiBold.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    display: block;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+body {
+    font-family: Poppins-Regular;
+    color: #171717;
+}
+
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-md-1 {
+    width: 8.333333334%;
+    float: left;
+}
+
+.col-md-2 {
+    width: 16.66666667%;
+    float: left;
+}
+
+.col-md-3 {
+    width: 25%;
+    float: left;
+}
+
+.col-md-4 {
+    width: 33.333333334%;
+    float: left;
+}
+
+.col-md-5 {
+    width: 41.66666667%;
+    float: left;
+}
+
+.col-md-6 {
+    width: 50%;
+    float: left;
+}
+
+.col-md-7 {
+    width: 58.333333334%;
+    float: left;
+}
+
+.col-md-8 {
+    width: 66.666666667%;
+    float: left;
+}
+
+.col-md-9 {
+    width: 75%;
+    float: left;
+}
+
+.col-md-10 {
+    width: 83.333333334%;
+    float: left;
+}
+
+.col-md-11 {
+    width: 91.666666667%;
+    float: left;
+}
+
+.col-md-12 {
+    width: 100%;
+    float: left;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* ----------- Top Banner Section ---------- */
+.banner_section {
+    float: left;
+    width: 70%;
+}
+.logo img{
+    max-width: 100%;
+}
+
+.banner_slider_one {
+    background-image: url('/assets/image/Banner-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.banner_slider_two {
+    background-image: url('/assets/image/Banner-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    float: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.banner_one_heading h1 {
+    color: #fffffffa;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: Poppins-SemiBold;
+    padding-top: 65px;
+    line-height: normal;
+    text-align: left;
+}
+
+.banner_two_heading h2 {
+    color: #fffffffa;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: Poppins-SemiBold;
+    padding-top: 80px;
+    line-height: normal;
+    text-align: left;
+}
+
+.banner_one_para p {
+    color: #fffffffa;
+    font-size: 22px;
+    line-height: 1.59;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.banner_one_para p br{
+    display: none;
+}
+
+.tick img {
+    max-width: 70%;
+}
+
+.tick {
+    position: relative;
+    top: 2px;
+    width: 8%;
+    float: left;
+}
+
+.text {
+    width: 92%;
+    float: left;
+    color: #fffffffa;
+    text-align: left;
+    font-size: 19px;
+}
+
+ul li {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.banner_section .slick-dots li.slick-active {
+    background-color: #fff;
+}
+
+.banner_section .slick-dots {
+    bottom: 10px;
+}
+
+.banner_section .slick-slider .slick-list,
+.slick-slider .slick-track {
+    text-align: center !important;
+}
+
+.banner_section .slick-dotted.slick-slider {
+    margin-bottom: 0 !important;
+}
+
+.banner_section .slick-dots li {
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50%;
+    background-color: #adaaad;
+    position: static !important;
+}
+
+/* -------------- form_section -------------- */
+
+.form_contanier {
+    width: 30%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: 30px 35px;
+
+}
+
+.form_heading h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #202020;
+    font-weight: 500;
+    line-height: 1.46;
+    font-family: Poppins-Medium;
+}
+
+.form_body input {
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+    border: solid 1px #ccc;
+    background-color: #f5f5f5;
+    margin-top: 15px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: Poppins-Regular;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.form_body input:hover {
+    border: solid 1px #22407d;
+}
+
+.choose-option {
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+    border: solid 1px #ccc;
+    background-color: #f5f5f5;
+    margin-top: 15px;
+    padding-left: 8px;
+    font-size: 15px;
+    font-family: Poppins-Regular;
+    color: rgb(0 0 0 / 67%);
+}
+
+.choose-option:hover {
+    border: solid 1px #22407d;
+}
+
+.form_button button {
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #22407d;
+    border: none;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.form_button button:hover {
+    background-color: #19469f;
+}
+
+.form-p-tag p {
+    font-size: 11px;
+    text-align: center;
+    padding-top: 10px;
+    color: #121118;
+    font-weight: 500;
+    font-family: Poppins-Regular;
+}
+
+.form-p-tag p span {
+    font-weight: 600;
+    color: #141126;
+    font-family: Poppins-Bold;
+}
+
+.form-p-tag span:hover {
+    color: #19469f;
+}
+
+/* ------------------ cisco_secure_firewall --------------- */
+
+.cisco_secure_firewall {
+    width: 100%;
+    float: left;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fafcff;
+}
+
+.secure_firewall_heading h2 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Poppins-SemiBold;
+    text-align: center;
+    color: #171717;
+    line-height: 1.5;
+}
+
+.secure_firewall_heading span {
+    font-weight: 600;
+    color: #22407d;
+}
+
+.secure_firewall_para p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Poppins-Regular;
+    text-align: center;
+    color: #272727;
+    padding-bottom: 25px;
+    line-height: 1.41;
+}
+
+.cisco_secure_firewall_container {
+    width: 100%;
+    float: left;
+    padding: 15px;
+}
+
+.cisco_secure_firewall_content h2 {
+    font-size: 18px;
+    font-family: Poppins-SemiBold;
+    font-weight: 600;
+    color: #171717;
+}
+
+.cisco_secure_firewall_content p {
+    font-size: 15px;
+    font-family: Poppins-Regular;
+    font-weight: 500;
+    color: #171717;
+    padding-top: 10px;
+    line-height: 1.41;
+}
+
+.icon_img img {
+    max-width: 100%;
+}
+
+/* ---------------------- Cisco_Next_Generation_Firewalls ------------------ */
+
+.Cisco_Next_Generation_Firewalls {
+    width: 100%;
+    float: left;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fefffd;
+}
+
+.Generation_Firewalls_heading h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1e1c24;
+    font-family: Poppins-Medium;
+    line-height: 1.41;
+    padding-bottom: 40px;
+}
+
+.Generation_Firewalls_heading span {
+    font-weight: 600;
+    color: #22407d;
+}
+
+.Generation_Firewalls_contanier {
+    width: 100%;
+    height: 170px;
+    border: solid 1px rgba(84, 185, 230, 0.1);
+    background-color: rgba(84, 185, 230, 0.07);
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.col-md-6:nth-child(3n+1) .Generation_Firewalls_contanier,
+.col-md-6:nth-child(3n+1) .Generation_Firewalls_contanier {
+    background-color: #f2f6ff;
+
+}
+
+.Generation_Firewalls_img {
+    position: relative;
+    top: 4px;
+    width: 45%;
+    float: left;
+    max-width: 100%;
+}
+
+.a_button {
+    padding-top: 38px;
+    text-align: center;
+    display: none;
+}
+
+.a_button a {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: #22407d;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.Generation_Firewalls_content {
+    width: 55%;
+    float: left;
+    padding-top: 8px;
+}
+
+.Generation_Firewalls_content h2 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Poppins-Bold;
+    line-height: 1.38;
+    color: #000;
+    padding-bottom: 4px;
+    text-align: left;
+
+}
+
+.Generation_Firewalls_content p {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Poppins-Regular;
+    line-height: 1.38;
+    color: #171717;
+    text-align: left;
+
+}
+
+.Cisco_Next_Generation_Firewalls .slick-dots li {
+    background-color: #adaaad !important;
+}
+
+.Cisco_Next_Generation_Firewalls .slick-dots li.slick-active {
+    background-color: #22407d !important;
+}
+
+.Cisco_Next_Generation_Firewalls .slick-dots {
+    bottom: -20px;
+}
+
+/* --------------- Cisco_Firepower_Firewalls -------------- */
+
+.Cisco_Firepower_Firewalls {
+    width: 100%;
+    float: left;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fafcff;
+}
+
+.Cisco_Firepower_heading h2 {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Poppins-Medium;
+    text-align: center;
+    color: #1e1c24;
+    padding-bottom: 10px;
+    line-height: 1.4;
+}
+
+.Cisco_Firepower_heading h2 span {
+    color: #22407d;
+}
+
+.Cisco_Firepower_heading p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Poppins-Medium;
+    text-align: center;
+    color: #1e1c24;
+}
+
+.tab {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.tab .tab_links {
+    width: 50%;
+    padding: 18px;
+    font-size: 20px;
+    float: left;
+    font-weight: 600;
+    border: none;
+    color: #22407d;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgba(235, 235, 235, 0.37);
+}
+.tab .tab_links:hover{
+    background-color: rgba(199, 191, 191, 0.37);
+
+} 
+
+.tab .tab_links.active {
+    color: #fff;
+    background-color: #22407d;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.Cisco_Firepower_Firewalls_table th {
+    font-family: Poppins-SemiBold;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px;
+    border-radius: 4px;
+    white-space: nowrap;
+    color: #22407d;
+    border: solid 1px rgba(34, 64, 125, 0.1);
+}
+
+.Cisco_Firepower_Firewalls_table td {
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 25px 18px;
+    min-width: 100px;
+    text-align: center;
+    color: #22407d;
+    border: solid 1px rgba(34, 64, 125, 0.1);
+
+}
+
+tr:nth-child(odd) {
+    background-color: #f5f6f8;
+}
+
+tr:nth-child(even) {
+    background-color: #f5f8ff;
+}
+
+.Cisco_Firepower_Firewalls_table td img {
+    max-width: 100%;
+}
+
+.Cisco_Firepower_Firewalls_table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 14px;
+}
+
+.Cisco_Firepower_Firewalls_table td p {
+    padding-top: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Poppins-SemiBold;
+    color: #22407d;
+    white-space: nowrap;
+}
+
+tr td {
+    height: 170px;
+}
+
+/* ----------------- Happy_Customers ------------------- */
+.Happy_Customers {
+    width: 100%;
+    height: 500px;
+    float: left;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f9fdff;
+}
+
+.Happy_Customers_heading h2{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: #020202;
+    padding-bottom: 50px;
+    font-family: Poppins-Medium;
+}
+
+.Happy_Customers_container {
+    width: 100%;
+    height: 290px;
+    float: left;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px 0 rgba(181, 181, 181, 0.15);
+    background-color: #fff;
+    padding: 35px;
+}
+
+.Customers_container_content p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+    line-height: 1.67;
+    text-align: left;
+    font-family: Poppins-Regular;
+}
+
+.Customers_container_name_img {
+    width: 100%;
+    float: left;
+    padding-top: 17px;
+}
+
+.Customers_img {
+    width: 22%;
+    float: left;
+
+}
+
+.Customers_img img {
+    max-width: 100%;
+}
+
+.Customers_name {
+    width: 78%;
+    float: left;
+    padding-top: 4px;
+    font-size: 19px;
+    color: #4a4a4a;
+    text-align: left;
+}
+
+.Customers_name img {
+    padding-top: 4px;
+}
+
+.Happy_Customers .slick-dots li.slick-active {
+    background-color: #54b9e6;
+}
+
+.Happy_Customers .slick-dots {
+    bottom: -40px;
+}
+
+/* -------------- softare_list --------------- */
+.softare_list {
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.softare_list_container {
+    width: 100%;
+    float: left;
+    border-radius: 8px;
+    background-color: #f5f8ff;
+    padding: 14px;
+}
+
+.softare_list_img {
+    position: relative;
+    top: 8px;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.softare_list_img img {
+    max-width: 100%;
+}
+
+.softare_list_content {
+    width: 75%;
+    float: left;
+}
+
+.softare_list_content h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #222;
+    line-height: 1.5;
+    font-family: Poppins-Medium;
+}
+
+/* -------------- footer--------------- */
+.footer {
+    width: 100%;
+    float: left;
+    background-color: #22407d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer_content h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    font-family: Poppins-Medium;
+    line-height: 1.5;
+}
+.tj_call img{
+    max-width: 100%;
+    position: relative;
+    top: 2px;
+}
+.tj_call{
+    text-align: center;
+}
+.tj_call a{
+    text-decoration: none;
+    font-family: Poppins-Medium;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+.tj_mail img{
+    position: relative;
+    top: 2px;
+    max-width: 100%;
+}
+.tj_mail a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: Poppins-Medium;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+/* inout form selection */
+input.error::-webkit-input-placeholder,
+select.error::-webkit-input-placeholder {
+    color: red;
+    /* Change placeholder text color to red for webkit browsers */
+}
+
+input.error,
+select.error {
+    border: 2px solid red !important;
+}
